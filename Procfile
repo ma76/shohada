@@ -1,0 +1,1 @@
+web: gunicorn shohada.wsgi --log-file -
