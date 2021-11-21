@@ -4,5 +4,5 @@ from .model import ShahidModel
 class ShahidSerializer(serializers.ModelSerializer):
     class Meta:
         model = ShahidModel
-        fields = '__all__'
+        fields = ['name','description','imageUrl','born_date','shahadat_date']
 

@@ -12,3 +12,6 @@ class ShahidModel(models.Model):
 
     def __str__(self):
         return self.name
+    @property
+    def imageUrl(self):
+        return self.image.url
