@@ -14,4 +14,4 @@ class ShahidModel(models.Model):
         return self.name
     @property
     def imageUrl(self):
-        return self.image.path
+        return self.image.url
