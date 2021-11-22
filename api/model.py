@@ -14,4 +14,5 @@ class ShahidModel(models.Model):
         return self.name
     @property
     def imageUrl(self):
+        # print('*',self.image)
         return self.image.url
