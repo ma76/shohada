@@ -16,7 +16,7 @@ SECRET_KEY = 'django-insecure-kv(n*r4lx1g!y09$r16dnzxa!h4q!p-q%cy3!84yce^_(x8%9n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['whispering-cliffs-64993.herokuapp.com']
 
 
 # Application definition
