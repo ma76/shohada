@@ -14,5 +14,8 @@ class ShahidModel(models.Model):
         return self.name
     @property
     def imageUrl(self):
+        url = 'https://shohadas.herokuapp.com'
+        finalUrl = f'{url}{self.image.url}'
         # print('*',self.image)
-        return self.image.url
+        print(finalUrl)
+        return  finalUrl
